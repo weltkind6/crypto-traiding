@@ -1,0 +1,95 @@
+.wrapper {
+    margin-top: 80px;
+}
+
+.subTitle {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.levelContainer {
+    width: 335px;
+    height: 320px;
+    margin-top: 40px;
+}
+
+.levelWrapper {
+    width: 334px;
+    height: 295px;
+    border-left: 3px solid #3E6FF9;
+    border-radius: 2px;
+    position: relative;
+}
+
+
+.center {
+    width: 330px;
+    height: 5px;
+    background: linear-gradient(180deg, rgba(12, 10, 23, 0.9) -18%, rgba(56, 116, 255, 0.9) 47.58%, rgba(11, 10, 19, 0.9) 119.72%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.progressBar {
+    width: 289px;
+    height: 13px;
+    background: #09A2FE;
+    box-shadow: 0 -2px 23px rgba(42, 7, 254, 0.8);
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.progressBar:nth-child(2) {
+    background: #2B40BF;
+    width: 72px;
+}
+
+.progressBar:nth-child(3) {
+    background: #0C62EE;
+    width: 165px;
+}
+
+.progressBar:nth-child(4) {
+    background: #09A2FE;
+    width: 289px;
+    margin-bottom: 40px;
+}
+
+.progressBar:nth-child(5) {
+    background: #44FACE;
+    width: 289px;
+}
+
+.progressBar:nth-child(6) {
+    background: #00FFA3;
+    width: 125px;
+}
+
+.progressBar:nth-child(7) {
+    background: #00CF6C;
+    width: 51px;
+}
+
+
+
+
+.progressContainer {
+    margin-left: 10px;
+    padding-top: 30px;
+}

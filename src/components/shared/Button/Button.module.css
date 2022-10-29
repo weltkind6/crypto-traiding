@@ -1,0 +1,31 @@
+.wrapper {
+    background: linear-gradient(140.6deg, #3E6FF9 -27.18%, #3E53F8 126.06%);
+    box-shadow: 0 0 49px rgba(42, 7, 254, 0.4);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'Mazzard', sans-serif;
+    font-style: normal;
+    padding: 20px 15px 20px 30px;
+    outline: none;
+    border: none;
+    width: 190px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.learnMore {
+    width: 32px;
+    height: 32px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.learnMore > img {
+    width: 12px;
+}

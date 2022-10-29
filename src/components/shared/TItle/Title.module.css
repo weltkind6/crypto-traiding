@@ -1,0 +1,33 @@
+.title {
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+    font-style: normal;
+    text-align: center;
+}
+
+.traders {
+    margin-left: 10px;
+}
+.traders:after {
+    content: "__";
+    color: palevioletred;
+    margin-left: 15px;
+}
+
+
+.title span {
+    background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.element {
+    width: 22px;
+    height: 8px;
+    background: #CB76FF;
+}
+
+
