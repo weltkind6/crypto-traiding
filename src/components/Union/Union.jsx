@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './Union.module.css'
-import stepsArrow1 from '../../img/stepsArrow1.svg'
-import dottedArrow from '../../img/dotted-arrow.svg';
-import straightArrow from '../../img/straight-arrow.svg';
-import difficultArrow from '../../img/difficult-arrow.svg';
+import stepsArrow1 from '../../img/svg/stepsArrow1.svg'
+import dottedArrow from '../../img/svg/dotted-arrow.svg';
+import straightArrow from '../../img/svg/straight-arrow.svg';
+import difficultArrow from '../../img/svg/difficult-arrow.svg';
 
 const Union = () => {
     return (

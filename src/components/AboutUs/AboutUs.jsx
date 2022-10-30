@@ -18,7 +18,7 @@ const AboutUs = () => {
                          <div className={styles.progressBar}/>
                      </div>
                 </div>
-                <div style={{color: '#FFF'}}>
+                <div className={styles.numbers}>
                     <span>10</span>
                     <span>20</span>
                     <span>30</span>

@@ -54,7 +54,6 @@
 }
 
 
-
 .progressBar:nth-child(2) {
     background: #2B40BF;
     width: 72px;
@@ -86,10 +85,15 @@
     width: 51px;
 }
 
-
-
-
 .progressContainer {
     margin-left: 10px;
     padding-top: 30px;
+}
+
+.numbers {
+    color: #FFFFFF;
+    width: 256px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
 }

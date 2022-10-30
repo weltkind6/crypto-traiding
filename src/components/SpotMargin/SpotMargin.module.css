@@ -1,0 +1,27 @@
+.wrapper {
+    padding: 35px 45px 427px 27px;
+    background-image: url("../../img/numbersBg.png");
+    background-repeat: repeat-x;
+    background-position: 702% 86%;
+    border-radius: 46px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    margin: 25px 0 25px 0;
+}
+
+.title > span {
+    background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    font-size: 35px;
+    letter-spacing: 0.02em;
+    font-family: "Mazzard H", sans-serif;
+}

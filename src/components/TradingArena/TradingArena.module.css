@@ -1,0 +1,15 @@
+.wrapper {
+    margin-top: 20px;
+    padding: 25px 65px 25px 25px;
+}
+
+.title {
+    width: 213px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    opacity: 0.9;
+    color: #FFFFFF;
+    font-family: "Mazzard H", sans-serif;
+    margin: 50px 0 50px 0;
+}

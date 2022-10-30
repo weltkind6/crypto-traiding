@@ -1,0 +1,19 @@
+.wrapper {
+    padding: 25px 65px 188px 25px;
+    margin-top: 20px;
+    background-image: url("../../img/bottomBg.png");
+    background-position: 99% 97%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    opacity: 0.9;
+    color: #FFFFFF;
+    font-family: "Mazzard H", sans-serif;
+    width: 245px;
+    margin: 50px 0 50px 0;
+}
+

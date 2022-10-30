@@ -1,0 +1,41 @@
+.wrapper {
+    margin-top: 32px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 43px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.textWrapper {
+    display: flex;
+}
+
+.textWrapper > p {
+    color: #E9E9E9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.textWrapper:first-child {
+    margin-bottom: 32px;
+}
+
+.button {
+    padding: 20px 55px;
+    background: linear-gradient(140.6deg, #3E6FF9 -27.18%, #3E53F8 126.06%);
+    box-shadow: 0 0 49px rgba(42, 7, 254, 0.4);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 35px;
+    outline: none;
+    border: none;
+}
