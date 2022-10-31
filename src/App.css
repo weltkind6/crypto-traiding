@@ -32,6 +32,7 @@ li {
 
 a {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .wrapper {
@@ -47,4 +48,23 @@ a {
 
 .bgContainer {
     background-image: url("../src/img/background-pattern.png");
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 1440px;
+    }
+
+    .main {
+        padding: 37px 135px 162px 135px;
+    }
+
+    .bgContainer {
+        background-image: none;
+    }
+
+    .descTopContainer {
+        display: flex;
+    }
 }

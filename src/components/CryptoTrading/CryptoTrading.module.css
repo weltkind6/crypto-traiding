@@ -21,3 +21,29 @@
     margin: 0 auto;
     padding: 40px 0;
 }
+
+@media (min-width: 1440px) {
+    .wrapper {
+        margin-top: 125px;
+    }
+
+    .title {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+    .description {
+        margin-left: 4px;
+        text-align: left;
+    }
+
+    .buttonWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 95%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+}

@@ -16,8 +16,10 @@ function App() {
       <div className="main">
           <div className="bgContainer">
               <Header />
-              <CryptoTrading />
-              <Union />
+             <div className="descTopContainer">
+                 <CryptoTrading />
+                 <Union />
+             </div>
           </div>
           <AboutUs />
           <LevelOne />

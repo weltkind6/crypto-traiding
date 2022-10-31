@@ -12,10 +12,12 @@ const Union = () => {
             <div className={styles.unionShadow} />
             <div className={styles.secondStep}>Second step</div>
             <div className={styles.firstStep}>First step</div>
+            <div className={styles.thirdStep}>Third step</div>
             <div className={styles.trading}>
                 <div className={styles.trade}>Trading</div>
             </div>
             <div className={styles.earning}>Earning</div>
+            <div className={styles.staking}>Staking</div>
             <img src={stepsArrow1} className={styles.stepsArrow1} alt="steps-arrow"/>
             <img src={dottedArrow} className={styles.dottedArrow} alt="steps-arrow"/>
             <img src={straightArrow} className={styles.straightArrow} alt="steps-arrow"/>

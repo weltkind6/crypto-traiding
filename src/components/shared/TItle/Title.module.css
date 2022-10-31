@@ -7,17 +7,12 @@
     text-align: center;
 }
 
+.descTopTitle {
+    display: none;
+}
+
 .traders {
     margin-left: 10px;
-}
-.traders:after {
-    content: "__";
-    color: palevioletred;
-    margin-left: 10px;
-}
-
-
-.title span {
     background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -26,10 +21,45 @@
     font-family: "Mazzard H", sans-serif;
 }
 
+.traders:after {
+    content: "__";
+    color: palevioletred;
+    margin-left: 10px;
+}
+
+
 .element {
     width: 22px;
     height: 8px;
     background: #CB76FF;
 }
 
+
+@media (min-width: 1440px) {
+    .title {
+        font-size: 96px;
+        line-height: 90px;
+        text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+        text-align: left;
+    }
+
+    .traders {
+        font-size: 70px;
+        text-align: left;
+        text-fill-color: transparent;
+        text-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+        background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-left: 0;
+
+    }
+    .mobileTitle {
+        display: none;
+    }
+    .descTopTitle {
+        display: block;
+        width: 650px;
+    }
+}
 

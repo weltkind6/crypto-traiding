@@ -2,6 +2,7 @@
     position: relative;
     margin-top: 75px;
     height: 275px;
+    width: 700px;
 }
 
 .firstStep {
@@ -15,7 +16,7 @@
     font-size: 12px;
     line-height: 14px;
     position: absolute;
-    left: 23%;
+    left: 13%;
     top: 68px;
     background: rgba(40, 63, 176, 0.32);
     border-radius: 10px;
@@ -34,11 +35,15 @@
     line-height: 10px;
     text-align: center;
     position: absolute;
-    left: 61%;
+    left: 30%;
     top: -7px;
     background: rgba(40, 63, 176, 0.32);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.thirdStep {
+    display: none;
 }
 
 .trading {
@@ -56,7 +61,7 @@
     height: 70px;
     transform: rotate(45deg);
     position: absolute;
-    left: 80%;
+    left: 39%;
     top: 56px;
 }
 
@@ -77,31 +82,40 @@
     font-size: 8px;
     line-height: 7px;
     position: absolute;
-    left: 64%;
+    left: 31%;
     top: 226px;
+}
+
+.staking {
+    display: none;
 }
 
 .stepsArrow1 {
     position: absolute;
     top: 2px;
-    left: 36%;
+    left: 19%;
+    width: 65px;
+    height: 55px;
 }
 
 .dottedArrow {
     position: absolute;
-    left: 88%;
+    left: 42%;
+    width: 67px;
 }
 
 .straightArrow {
     position: absolute;
     top: 87px;
-    left: 55%;
+    left: 28%;
+    width: 56px;
 }
 
 .difficultArrow {
     position: absolute;
     top: 153px;
-    left: 69%;
+    left: 34%;
+    width: 143px;
 }
 
 .shadow {
@@ -119,4 +133,105 @@
     height: 257px;
     background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
     left: 45%;
+}
+
+@media (min-width: 1440px) {
+
+    .firstStep {
+        width: 155px;
+        height: 80px;
+        top: 71%;
+        left: 7%;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .secondStep {
+        width: 117px;
+        height: 50px;
+        top: 27%;
+        left: 44%;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .thirdStep {
+        font-size: 13px;
+        line-height: 15px;
+        background: #C4C4C4;
+        width: 155px;
+        height: 78px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFFFFF;
+        text-align: center;
+        position: absolute;
+        left: 95%;
+        top: 22%;
+        background: rgba(40, 63, 176, 0.32);
+        border-radius: 10px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .trading {
+        width: 122px;
+        height: 122px;
+        top: 64%;
+        left: 68%;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .earning {
+        width: 80px;
+        height: 80px;
+        left: 52%;
+        top: 455px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .staking {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        background: rgba(40, 63, 176, 0.2);
+        border-radius: 50%;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        color: #FFFFFF;
+        font-size: 13px;
+        line-height: 15px;
+        position: absolute;
+        left: 93%;
+        top: 455px;
+    }
+
+    .stepsArrow1 {
+        width: 105px;
+        height: 90px;
+        left: 20%;
+        top: 33%;
+    }
+
+    .straightArrow {
+        width: 90px;
+        top: 83%;
+        left: 42%;
+    }
+
+    .dottedArrow {
+        width: 107px;
+        top: 33%;
+        left: 70%;
+    }
+
+    .difficultArrow {
+        width: 230px;
+        top: 125%;
+        left: 58%;
+    }
 }
