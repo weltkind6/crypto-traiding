@@ -13,7 +13,7 @@
 .traders:after {
     content: "__";
     color: palevioletred;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 
@@ -23,7 +23,6 @@
     -webkit-text-fill-color: transparent;
     color: #0B2349;
     font-size: 49px;
-    letter-spacing: 0.02em;
     font-family: "Mazzard H", sans-serif;
 }
 

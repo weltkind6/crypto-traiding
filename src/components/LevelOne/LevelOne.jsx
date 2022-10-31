@@ -24,7 +24,7 @@ const LevelOne = () => {
                     </p>
                 </div>
             </div>
-            <button className={styles.button}>Start now</button>
+                <button className={styles.button}>Start now</button>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 .wrapper {
     margin-top: 80px;
+    position: relative;
 }
 
 .subTitle {
@@ -91,9 +92,57 @@
 }
 
 .numbers {
-    color: #FFFFFF;
     width: 256px;
     display: flex;
     justify-content: space-between;
     margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D4D4D4;
+}
+
+.lines {
+    position: absolute;
+    opacity: .4;
+    left: -7%;
+    top: -82%;
+}
+
+.bigLine {
+    position: absolute;
+    left: 56%;
+    top: -24%;
+    opacity: .4;
+}
+
+.dottedLines > img {
+    position: absolute;
+}
+
+.dottedLine1 {
+    top: 166px;
+    left: 85px;
+}
+
+.dottedLine2 {
+    top: 166px;
+    left: 162px;
+}
+
+.dottedLine3 {
+    top: 166px;
+    left: 245px;
+}
+
+.gradient {
+    position: absolute;
+    width: 477px;
+    height: 283px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.161) 0%, rgba(40, 0, 153, 0.161) 91.72%);
+    filter: blur(100px);
+    border-radius: 2px;
+    transform: rotate(131.65deg);
+    top: 30%;
+    left: -30%;
 }

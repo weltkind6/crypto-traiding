@@ -8,6 +8,8 @@ import difficultArrow from '../../img/svg/difficult-arrow.svg';
 const Union = () => {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.shadow} />
+            <div className={styles.unionShadow} />
             <div className={styles.secondStep}>Second step</div>
             <div className={styles.firstStep}>First step</div>
             <div className={styles.trading}>

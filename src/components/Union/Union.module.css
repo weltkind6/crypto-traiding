@@ -6,7 +6,6 @@
 
 .firstStep {
     background: #C4C4C4;
-    border-radius: 10px;
     width: 97px;
     height: 49px;
     display: flex;
@@ -18,11 +17,13 @@
     position: absolute;
     left: 23%;
     top: 68px;
+    background: rgba(40, 63, 176, 0.32);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .secondStep {
     background: #C4C4C4;
-    border-radius: 10px;
     width: 73px;
     height: 30px;
     display: flex;
@@ -35,6 +36,9 @@
     position: absolute;
     left: 61%;
     top: -7px;
+    background: rgba(40, 63, 176, 0.32);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .trading {
@@ -46,6 +50,8 @@
     line-height: 10px;
     background: #C4C4C4;
     border-radius: 4px;
+    background: rgba(40, 63, 176, 0.55);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     width: 70px;
     height: 70px;
     transform: rotate(45deg);
@@ -64,10 +70,11 @@
     align-items: center;
     width: 49px;
     height: 49px;
+    background: rgba(40, 63, 176, 0.2);
     border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     color: #FFFFFF;
-    background: #C4C4C4;
-    font-size: 6px;
+    font-size: 8px;
     line-height: 7px;
     position: absolute;
     left: 64%;
@@ -97,3 +104,19 @@
     left: 69%;
 }
 
+.shadow {
+    position: absolute;
+    top: -40%;
+    width: 494px;
+    height: 398px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.unionShadow {
+    position: absolute;
+    width: 318px;
+    height: 257px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+    left: 45%;
+}

@@ -2,10 +2,13 @@ import React from 'react';
 import styles from './Future.module.css'
 import classNames from "classnames";
 import logo from '../../img/svg/logo.svg'
+import arrows from '../../img/svg/arrows.svg'
 
 const Future = () => {
     return (
         <div className={styles.wrapper}>
+            <div className={styles.shadow}/>
+            <div className={styles.gradient}/>
             <h5 className={styles.title}>
                 The future <span style={{color: "#aaaaaa"}}>of</span> Cryptocurrency trading
                 <span className={styles.platform}> platform</span>
@@ -38,9 +41,11 @@ const Future = () => {
                     <p className={styles.futureText}>
                         Easy to use digital service and exclusive personal service for our active traders
                     </p>
+                    <img src={arrows} alt="arrows" className={styles.arrows}/>
                 </div>
             </div>
             <div className={styles.consumers}>Consumers</div>
+            <div className={styles.bottomGradient}/>
         </div>
     );
 };

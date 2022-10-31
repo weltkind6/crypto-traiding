@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .logo {
@@ -19,6 +20,20 @@
     cursor: pointer;
 }
 
-.menuLine {
-
+.headerShadow {
+    width: 376px;
+    height: 303px;
+    position: absolute;
+    left: -25%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.09) 0%, rgba(196, 196, 196, 0) 100%);
+}
+.headerShadowEllipse {
+    width: 322px;
+    height: 191px;
+    background: linear-gradient(180deg, rgba(0, 65, 218, 0.115) 0%, rgba(40, 0, 153, 0.115) 91.72%);
+    filter: blur(100px);
+    border-radius: 3px;
+    transform: rotate(131.65deg);
+    position: absolute;
+    left: -60%;
 }
