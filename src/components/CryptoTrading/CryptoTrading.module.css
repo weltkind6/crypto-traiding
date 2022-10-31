@@ -22,6 +22,10 @@
     padding: 40px 0;
 }
 
+.mouseImg {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .wrapper {
         margin-top: 125px;
@@ -30,6 +34,7 @@
     .title {
         font-size: 19px;
         line-height: 23px;
+        text-align: left;
     }
 
     .description {
@@ -37,13 +42,7 @@
         text-align: left;
     }
 
-    .buttonWrapper {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        position: absolute;
-        left: 50%;
-        top: 95%;
-        transform: translate3d(-50%, -50%, 0);
+    .mouseImg {
+        display: block;
     }
 }

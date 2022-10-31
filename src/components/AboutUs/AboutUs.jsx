@@ -14,8 +14,10 @@ const AboutUs = () => {
                 <img src={dottedLines} alt="dotted-lines" className={styles.dottedLine2}/>
                 <img src={dottedLines} alt="dotted-lines" className={styles.dottedLine3}/>
             </div>
-            <h2 className={styles.subTitle}>About us</h2>
-            <h3 className={styles.title}>Global technologies</h3>
+            <div className={styles.titleWrapper}>
+                <h2 className={styles.subTitle}>About us</h2>
+                <h3 className={styles.title}>Global technologies</h3>
+            </div>
             <div className={styles.levelContainer}>
                 <div className={styles.levelWrapper}>
                      <div className={styles.progressContainer}>

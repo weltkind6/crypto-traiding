@@ -11,9 +11,7 @@ const CryptoTrading = () => {
             <p className={styles.description}>
                 Advanced crypto algorithmic trading and efficient cross-chain execution, at scale.
             </p>
-            <div className={styles.buttonWrapper}>
-                <Button>Learn more</Button>
-            </div>
+            <Button>Learn more</Button>
         </div>
     );
 };

@@ -50,6 +50,10 @@ a {
     background-image: url("../src/img/background-pattern.png");
 }
 
+.descTopTitle {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .wrapper {
         margin: 0 auto;
@@ -66,5 +70,16 @@ a {
 
     .descTopContainer {
         display: flex;
+    }
+
+    .descTopWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 65px;
+    }
+
+    .descTopTitle {
+        display: block;
     }
 }

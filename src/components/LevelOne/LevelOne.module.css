@@ -39,3 +39,21 @@
     border: none;
     cursor: pointer;
 }
+
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 370px;
+        margin-top: 0;
+    }
+
+    .textWrapper > p {
+        color: #E9E9E9;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .button {
+        margin-top: 44px;
+    }
+}

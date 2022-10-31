@@ -29,3 +29,12 @@
 .learnMore > img {
     width: 12px;
 }
+
+@media (min-width: 1440px) {
+    .wrapper {
+        margin-top: 150px;
+        position: relative;
+        left: 54%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+}

@@ -20,6 +20,10 @@
     margin-top: 10px;
 }
 
+.titleWrapper {
+    display: block;
+}
+
 .levelContainer {
     width: 335px;
     height: 320px;
@@ -145,4 +149,51 @@
     transform: rotate(131.65deg);
     top: 30%;
     left: -30%;
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        margin-top: 0;
+    }
+
+    .title {
+        font-size: 40px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+
+    .levelWrapper {
+
+    }
+
+    .levelContainer {
+        margin-top: 0;
+    }
+
+    .titleWrapper {
+        display: none;
+    }
+
+    .gradient {
+        display: none;
+    }
+
+    .lines {
+        display: none;
+    }
+
+    .bigLine {
+        display: none;
+    }
+
+    .numbers {
+        margin-top: 5px;
+    }
+
+    .dottedLine1,
+    .dottedLine2,
+    .dottedLine3 {
+        top: 0;
+    }
 }
