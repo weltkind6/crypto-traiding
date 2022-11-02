@@ -19,7 +19,7 @@ const Future = () => {
                 <img src={circle3} alt="circle" className={styles.circle3}/>
                 <img src={circle4} alt="circle" className={styles.circle4}/>
             </div>
-            <div className={styles.lines}>
+            <div>
                 <div className={styles.line1}/>
                 <div className={styles.line2}/>
                 <div className={styles.line3}/>

@@ -187,7 +187,9 @@
     display: none;
 }
 
+
 .line1 {
+    position: absolute;
     width: 19px;
     background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
     opacity: 0.8;
@@ -250,6 +252,7 @@
     left: 5%;
     transform: rotate(90deg);
 }
+
 
 @media (min-width: 1440px) {
     .usageWrapper {
