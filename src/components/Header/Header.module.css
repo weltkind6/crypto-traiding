@@ -88,7 +88,6 @@
     }
 
     .headerButton:hover {
-        background: linear-gradient(140.6deg, #3E6FF9 -27.18%, #3E53F8 126.06%);
-        outline: 2px solid #FFFFFF;
+
     }
 }

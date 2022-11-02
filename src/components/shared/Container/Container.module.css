@@ -4,4 +4,10 @@
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(32, 29, 29, 0.48);
     margin-bottom: 25px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+.container:hover {
+    transition: 1s ease-in-out;
+    transform: translateY(30px) scale(1.1);
 }

@@ -3,12 +3,30 @@ import styles from './Future.module.css'
 import classNames from "classnames";
 import logo from '../../img/svg/logo.svg'
 import arrows from '../../img/svg/arrows.svg'
+import circle from '../../img/svg/circle.svg'
+import circle2 from '../../img/svg/circle2.svg'
+import circle3 from '../../img/svg/circle3.svg'
+import circle4 from '../../img/svg/circle4.svg'
 
 const Future = () => {
     return (
         <div className={styles.wrapper}>
             <div className={styles.shadow}/>
             <div className={styles.gradient}/>
+            <div className={styles.circleWrapper}>
+                <img src={circle} alt="circle" className={styles.circle}/>
+                <img src={circle2} alt="circle" className={styles.circle2}/>
+                <img src={circle3} alt="circle" className={styles.circle3}/>
+                <img src={circle4} alt="circle" className={styles.circle4}/>
+            </div>
+            <div className={styles.lines}>
+                <div className={styles.line1}/>
+                <div className={styles.line2}/>
+                <div className={styles.line3}/>
+                <div className={styles.line4}/>
+                <div className={styles.line5}/>
+                <div className={styles.line6}/>
+            </div>
             <div className={styles.flexContainer}>
                 <div className={styles.descTopContainer}>
                     <h5 className={styles.title}>

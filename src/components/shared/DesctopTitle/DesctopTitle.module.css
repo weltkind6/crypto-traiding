@@ -27,8 +27,22 @@
     margin-top: 145px;
 }
 
+.imgWrapper {
+    position: relative;
+}
+
 .mouseImg {
     width: 17px;
     height: 29px;
+}
+
+.mouseDote {
+    width: 5px;
+    height: 2px;
+    transform: rotate(90deg);
+    background: #FFFFFF;
+    position: absolute;
+    top: 23%;
+    left: 37%;
 }
 

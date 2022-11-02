@@ -15,3 +15,9 @@
     margin: 50px 0 50px 0;
 }
 
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 320px;
+        height: 358px;
+    }
+}

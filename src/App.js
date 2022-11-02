@@ -30,10 +30,16 @@ function App() {
                     <LevelOne/>
                 </div>
                 <Future/>
-                <SpotMargin/>
-                <Derivatives/>
-                <TradingArena/>
-                <MobileApp/>
+                <div className="footerContainer">
+                    <SpotMargin/>
+                    <div className="flex-box1">
+                        <div className="flex-box">
+                            <Derivatives/>
+                            <TradingArena/>
+                        </div>
+                        <MobileApp/>
+                    </div>
+                </div>
             </div>
         </div>
     );

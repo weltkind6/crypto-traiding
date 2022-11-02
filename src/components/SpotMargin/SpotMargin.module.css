@@ -25,3 +25,13 @@
     letter-spacing: 0.02em;
     font-family: "Mazzard H", sans-serif;
 }
+
+@media (min-width: 1440px) {
+    .wrapper {
+        padding: 427px 45px 35px 27px;
+        width: 464px;
+        height: 691px;
+        background-repeat: repeat-x;
+        background-position: 801% -14%;
+    }
+}

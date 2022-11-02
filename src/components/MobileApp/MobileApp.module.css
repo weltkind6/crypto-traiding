@@ -17,3 +17,11 @@
     margin: 50px 0 50px 0;
 }
 
+@media (min-width: 1440px) {
+    .wrapper {
+        width: 676px;
+        height: 303px;
+        background-position: 100% 0;
+        margin-top: 0;
+    }
+}

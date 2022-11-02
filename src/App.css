@@ -38,6 +38,7 @@ a {
 .wrapper {
     margin: 0 auto;
     width: 390px;
+    overflow: hidden;
 }
 
 .main {
@@ -58,6 +59,7 @@ a {
     .wrapper {
         margin: 0 auto;
         width: 1440px;
+        overflow: hidden;
     }
 
     .main {
@@ -82,4 +84,15 @@ a {
     .descTopTitle {
         display: block;
     }
+
+    .footerContainer {
+        display: flex;
+        gap: 30px;
+    }
+
+    .flex-box {
+        display: flex;
+        gap: 30px;
+    }
+
 }
