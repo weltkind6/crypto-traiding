@@ -55,9 +55,11 @@
 
     .button {
         margin-top: 44px;
+        position: relative;
+        z-index: 50;
     }
 
     .button:hover {
-        background: #FFFFFF;
+
     }
 }

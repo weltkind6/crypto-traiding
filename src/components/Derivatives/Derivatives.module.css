@@ -1,8 +1,20 @@
 .wrapper {
     padding: 25px 65px 25px 25px;
-    margin-top: 20px;
+    background: rgba(32, 29, 29, 0.55);
 }
 
+.container {
+    border-radius: 46px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    background: rgba(32, 29, 29, 0.55);
+    position: relative;
+    z-index: 100;
+}
 
 .title {
     font-weight: 400;
@@ -19,5 +31,16 @@
     .wrapper {
         width: 320px;
         height: 358px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .backing {
+        width: 320px;
+        height: 378px;
+        background: #000000;
+        border-radius: 28px;
+        position: absolute;
+        z-index: 50;
     }
 }

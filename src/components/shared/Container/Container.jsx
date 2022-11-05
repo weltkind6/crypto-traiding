@@ -1,12 +1,11 @@
 import React from 'react';
-import './Container.css'
-import classNames from "classnames";
+import styles from './Container.module.css'
 
 const Container = ({children}) => {
 
     return (
-        <div className={classNames('container', 'className')}>
-            {children}
+        <div className={styles.container}>
+                {children}
         </div>
     );
 };

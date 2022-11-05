@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './Derivatives.module.css'
 import LearnMore from "../shared/LearnMore/LearnMore";
 import Subtitle from "../shared/Subtitle/Subtitle";
-import Container from "../shared/Container/Container";
 
 const Derivatives = () => {
     return (
-        <Container>
+        <div className={styles.container}>
+            <div className={styles.backing}/>
             <div className={styles.wrapper}>
                 <Subtitle>derivatives</Subtitle>
                 <div className={styles.title}>
@@ -14,7 +14,7 @@ const Derivatives = () => {
                 </div>
                 <LearnMore/>
             </div>
-        </Container>
+        </div>
     );
 };
 

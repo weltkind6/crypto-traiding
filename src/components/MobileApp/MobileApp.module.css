@@ -52,6 +52,7 @@
         width: 676px;
         height: 303px;
         background-position: 100% 0;
+        background-image: url("../../img/mobileAppBgDesctop.png");
         margin-top: 0;
     }
 
@@ -64,5 +65,9 @@
         height: 303px;
         width: 676px;
         border-radius: 46px;
+    }
+
+    .container {
+        border: 2px solid rgba(255, 255, 255, .2);
     }
 }
