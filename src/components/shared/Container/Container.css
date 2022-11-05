@@ -2,7 +2,7 @@
     background: rgba(32, 29, 29, 0.55);
     border-radius: 46px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid rgba(32, 29, 29, 0.48);
+    border: 1px solid rgba(255, 255, 255, .2);
     margin-bottom: 25px;
     cursor: pointer;
     transition: 1s ease-in-out;
@@ -11,3 +11,4 @@
     transition: 1s ease-in-out;
     transform: translateY(30px) scale(1.1);
 }
+

@@ -1,9 +1,10 @@
 .wrapper {
     padding: 35px 45px 427px 27px;
-    background-image: url("../../img/numbersBg.png");
-    background-repeat: repeat-x;
-    background-position: 702% 86%;
+    background-image: url("../../img/bgnumbers0.png"), url("../../img/bgnumbers.png");
     border-radius: 46px;
+    height: 476px;
+    background-repeat: no-repeat;
+    background-position: 220% 67%, -161% 108%;
 }
 
 .title {
@@ -25,6 +26,7 @@
     letter-spacing: 0.02em;
     font-family: "Mazzard H", sans-serif;
 }
+
 
 @media (min-width: 1440px) {
     .wrapper {

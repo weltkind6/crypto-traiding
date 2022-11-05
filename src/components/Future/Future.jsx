@@ -7,6 +7,7 @@ import circle from '../../img/svg/circle.svg'
 import circle2 from '../../img/svg/circle2.svg'
 import circle3 from '../../img/svg/circle3.svg'
 import circle4 from '../../img/svg/circle4.svg'
+import Lines from "../ui/Lines/Lines";
 
 const Future = () => {
     return (

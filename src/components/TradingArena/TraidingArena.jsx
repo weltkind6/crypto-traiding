@@ -8,6 +8,7 @@ const TradingArena = () => {
     return (
         <Container>
             <div className={styles.wrapper}>
+                <div className={styles.gradient}></div>
                 <Subtitle>trading arena</Subtitle>
                 <div className={styles.title}>
                     Prize pools worth up to USD 1,000,000

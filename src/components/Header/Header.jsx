@@ -7,7 +7,7 @@ const Header = () => {
         <div className={styles.wrapper}>
             <div className={styles.logo}>C</div>
             <div className={styles.mobileMenu}/>
-            <nav>
+            <nav className={styles.nav}>
                 <ul className={styles.descTopMenu}>
                     <li><a href="#">Activities</a></li>
                     <li><a href="#">Technology</a></li>

@@ -1,6 +1,7 @@
 .wrapper {
     margin-top: 20px;
     padding: 25px 65px 25px 25px;
+    position: relative;
 }
 
 .title {
@@ -14,9 +15,24 @@
     margin: 50px 0 50px 0;
 }
 
+.gradient {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .wrapper {
         width: 320px;
         height: 358px;
+    }
+
+    .gradient {
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        width: 251px;
+        height: 265px;
+        left: 195px;
+        top: 240px;
+        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%);
     }
 }

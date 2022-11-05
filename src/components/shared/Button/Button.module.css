@@ -12,6 +12,7 @@
     outline: none;
     border: none;
     width: 190px;
+    height: 60px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -32,7 +33,7 @@
 
 @media (min-width: 1440px) {
     .wrapper {
-        margin-top: 150px;
+        margin-top: 95px;
         position: relative;
         left: 54%;
         transform: translate3d(-50%, -50%, 0);

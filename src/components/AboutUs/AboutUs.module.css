@@ -78,16 +78,19 @@
 .progressBar:nth-child(5) {
     background: #44FACE;
     width: 289px;
+    box-shadow: 0 -2px 23px rgba(7, 254, 224, 0.8);
 }
 
 .progressBar:nth-child(6) {
     background: #00FFA3;
     width: 125px;
+    box-shadow: 0 -2px 23px rgba(7, 254, 224, 0.8);
 }
 
 .progressBar:nth-child(7) {
     background: #00CF6C;
     width: 51px;
+    box-shadow: 0 -2px 23px rgba(7, 254, 224, 0.8);
 }
 
 .progressContainer {

@@ -15,15 +15,13 @@ function App() {
     return (
         <div className="wrapper">
             <div className="main">
-                <div className="bgContainer">
-                    <Header/>
-                    <div className="descTopContainer">
-                        <CryptoTrading/>
-                        <Union/>
-                    </div>
+                <Header/>
+                <div className="descTopContainer">
+                    <CryptoTrading/>
+                    <Union/>
                 </div>
                 <div className="descTopTitle">
-                    <DescTopTitle />
+                    <DescTopTitle/>
                 </div>
                 <div className="descTopWrapper">
                     <AboutUs/>

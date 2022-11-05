@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './MobileApp.module.css'
 import Subtitle from "../shared/Subtitle/Subtitle";
 import LearnMore from "../shared/LearnMore/LearnMore";
-import Container from "../shared/Container/Container";
 
 const MobileApp = () => {
     return (
-        <Container>
+        <div className={styles.container}>
+            <div className={styles.cover} />
             <div className={styles.wrapper}>
                 <Subtitle>mobile app</Subtitle>
                 <div className={styles.title}>
@@ -14,8 +14,9 @@ const MobileApp = () => {
                     anywhere
                 </div>
                 <LearnMore/>
+                <div className={styles.gradient}/>
             </div>
-        </Container>
+        </div>
     );
 };
 

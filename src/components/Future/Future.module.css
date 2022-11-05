@@ -14,7 +14,7 @@
 }
 
 .platform {
-    background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+    background: #487FFF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #0B2349;
@@ -173,7 +173,7 @@
 
 .bottomGradient {
     position: absolute;
-    left: -45%;
+    left: -61%;
     top: 85%;
     width: 477px;
     height: 283px;
@@ -344,6 +344,7 @@
 
     .platform {
         font-size: 37px;
+        border-image-source: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
     }
 
     .text {
@@ -354,7 +355,8 @@
 
     .arrows {
         left: 51%;
-        top: 80%;
+        top: 74%;
+        height: 83px;
     }
 
     .circleWrapper {
@@ -455,4 +457,5 @@
         left: 23.5%;
         transform: rotate(0deg);
     }
+
 }

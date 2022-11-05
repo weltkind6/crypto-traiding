@@ -43,6 +43,10 @@
     left: -60%;
 }
 
+.nav {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .mobileMenu {
         display: none;
@@ -87,7 +91,7 @@
         border: none;
     }
 
-    .headerButton:hover {
-
+    .nav {
+        display: block;
     }
 }
