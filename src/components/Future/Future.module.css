@@ -118,6 +118,7 @@
     border: 1px solid rgba(255, 255, 255, .3);
     padding: 25px 20px 60px 20px;
     margin-top: 35px;
+    position: relative;
 }
 
 .bottomWrapper {
@@ -280,9 +281,12 @@
     z-index: 100;
 }
 
-.rectangle {
+.rectangle,
+.gradientLeft,
+.bottomShadow {
     display: none;
 }
+
 
 
 @media (min-width: 1440px) {
@@ -340,10 +344,19 @@
         flex-direction: column-reverse;
         align-items: center;
         padding: 0 29px 75px 29px;
+        position: relative;
+        z-index: 100;
     }
 
     .bottomBacking {
-
+        position: absolute;
+        background: #000;
+        z-index: 50;
+        top: 8%;
+        left: 42%;
+        width: 263px;
+        height: 381px;
+        border-radius: 28px;
     }
 
     .bottomWrapper {
@@ -396,8 +409,8 @@
     }
 
     .arrows {
-        left: 51%;
-        top: 74%;
+        left: 39%;
+        top: 88%;
         height: 83px;
     }
 
@@ -504,6 +517,67 @@
         border-right: none;
         border-image: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
         border-image-slice: 1;
-        opacity: 0.8;
+        opacity: 0.5;
     }
+    .futureBall {
+        width: 8px;
+        height: 8px;
+        background: #6A8BFF;
+        opacity: 0.6;
+        filter: blur(1px);
+        position: absolute;
+        border-radius: 50%;
+        left: 24.7%;
+        top: 22%;
+    }
+
+    .futureBall2 {
+        width: 8px;
+        height: 8px;
+        background: #6A8BFF;
+        opacity: 0.6;
+        filter: blur(1px);
+        position: absolute;
+        border-radius: 50%;
+        left: 106%;
+        top: 69%;
+    }
+
+    .shadow {
+        position: absolute;
+        width: 252px;
+        height: 253px;
+        background: #929292;
+        filter: blur(225px);
+        left: 82%;
+        top: -6%;
+    }
+
+    .bottomShadow {
+        display: block;
+        position: absolute;
+        width: 497px;
+        height: 277px;
+        left: 36%;
+        top: 88%;
+        opacity: .5;
+        background: #949494;
+        filter: blur(275px);
+    }
+
+    .gradientLeft {
+        display: block;
+        position: absolute;
+        width: 1186px;
+        height: 703px;
+        left: -51%;
+        top: -79%;
+        background: linear-gradient(180deg, rgba(0, 65, 218, 0.161) 0%, rgba(40, 0, 153, 0.161) 91.72%);
+        filter: blur(100px);
+        border-radius: 30%;
+        transform: rotate(131.65deg);
+        z-index: 100;
+    }
+
+
 }

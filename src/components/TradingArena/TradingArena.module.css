@@ -17,6 +17,11 @@
     z-index: 100;
 }
 
+.container:hover {
+    transition: 1s ease-in-out;
+    transform: translateY(30px) scale(1.1);
+}
+
 .title {
     width: 213px;
     font-weight: 400;
@@ -29,7 +34,14 @@
 }
 
 .gradient {
-    display: none;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    width: 251px;
+    height: 265px;
+    left: 195px;
+    top: 240px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%);
 }
 
 
@@ -51,13 +63,7 @@
     }
 
     .gradient {
-        border-radius: 50%;
-        display: block;
-        position: absolute;
-        width: 251px;
-        height: 265px;
         left: 195px;
         top: 240px;
-        background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%);
     }
 }

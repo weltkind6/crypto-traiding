@@ -50,15 +50,17 @@ a {
     background-repeat: no-repeat;
 }
 
-.descTopTitle {
+.descTopTitle, .bottom-gradient {
     display: none;
 }
+
 
 @media (min-width: 1440px) {
     .wrapper {
         margin: 0 auto;
         width: 1440px;
         overflow: hidden;
+        position: relative;
     }
 
     .main {
@@ -94,6 +96,20 @@ a {
     .flex-box {
         display: flex;
         gap: 30px;
+    }
+
+    .bottom-gradient {
+        display: block;
+        position: absolute;
+        width: 923px;
+        height: 581px;
+        left: -6%;
+        top: 97%;
+        background: linear-gradient(0deg, rgba(87, 87, 87, 0.23), rgba(87, 87, 87, 0.23));
+        filter: blur(100px);
+        border-radius: 30px;
+        transform: rotate(157.5deg);
+        border: 2px solid #FFFFFF;
     }
 
 }

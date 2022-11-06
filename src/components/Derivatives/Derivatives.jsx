@@ -14,6 +14,7 @@ const Derivatives = () => {
                 </div>
                 <LearnMore/>
             </div>
+            <div className={styles.roundGradient} />
         </div>
     );
 };

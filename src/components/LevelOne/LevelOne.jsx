@@ -9,7 +9,7 @@ const LevelOne = () => {
             <h4 className={styles.title}>Level 1</h4>
             <div>
                 <div className={styles.textWrapper}>
-                    <div className={styles.triangle}/>
+                    <div/>
                     <img src={triangleBlue} alt="triangle-blue"/>
                     <p>
                         Deploy a multi-legged futures strategy by simultaneously placing orders to buy and sell from the

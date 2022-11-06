@@ -15,6 +15,7 @@ const MobileApp = () => {
                 </div>
                 <LearnMore/>
                 <div className={styles.gradient}/>
+                <div className={styles.roundGradient} />
             </div>
         </div>
     );

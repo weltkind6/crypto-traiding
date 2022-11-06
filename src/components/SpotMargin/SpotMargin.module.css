@@ -1,10 +1,26 @@
 .wrapper {
     padding: 35px 45px 427px 27px;
-    background-image: url("../../img/bgnumbers0.png"), url("../../img/bgnumbers.png");
-    border-radius: 46px;
     height: 476px;
-    background-repeat: no-repeat;
+    background: rgba(32, 29, 29, 0.55) no-repeat;
+    background-image: url("../../img/bgnumbers0.png"), url("../../img/bgnumbers.png");
     background-position: 220% 67%, -161% 108%;
+}
+
+.container {
+    border-radius: 46px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(255, 255, 255, .2);
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+}
+
+.container:hover {
+    transition: 1s ease-in-out;
+    transform: translateY(30px) scale(1.1);
 }
 
 .title {
@@ -27,14 +43,42 @@
     font-family: "Mazzard H", sans-serif;
 }
 
+.roundGradient {
+    display: block;
+    position: absolute;
+    width: 251px;
+    height: 265px;
+    z-index: 100;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%);
+    top: 72%;
+    left: 61%;
+}
+
+
 
 @media (min-width: 1440px) {
     .wrapper {
         padding: 427px 45px 35px 27px;
         width: 464px;
         height: 691px;
-        background-repeat: repeat-x;
-        background-position: 811% -4%;
-        background-image: url("../../img/spotMarginNumbersBgDesctop.png");
+        background: rgba(32, 29, 29, 0.55) url("../../img/spotMarginNumbersBgDesctop.png") repeat-x 811% -4%;
+        position: relative;
+        z-index: 100;
     }
+
+    .backing {
+        width: 464px;
+        height: 691px;
+        background: #000000;
+        border-radius: 28px;
+        position: absolute;
+        z-index: 50;
+    }
+
+    .roundGradient {
+        top: 72%;
+        left: 61%;
+    }
+
 }

@@ -14,6 +14,12 @@
     background: rgba(32, 29, 29, 0.55);
     position: relative;
     z-index: 100;
+
+}
+
+.container:hover {
+    transition: 1s ease-in-out;
+    transform: translateY(30px) scale(1.1);
 }
 
 .title {
@@ -25,6 +31,17 @@
     font-family: "Mazzard H", sans-serif;
     width: 245px;
     margin: 50px 0 50px 0;
+}
+
+.roundGradient {
+    position: absolute;
+    width: 251px;
+    height: 265px;
+    z-index: 100;
+    top: 54%;
+    left: 62%;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%);
 }
 
 @media (min-width: 1440px) {
@@ -42,5 +59,10 @@
         border-radius: 28px;
         position: absolute;
         z-index: 50;
+    }
+
+    .roundGradient {
+        top: 54%;
+        left: 62%;
     }
 }

@@ -39,6 +39,7 @@ function App() {
                     </div>
                 </div>
             </div>
+            <div className="bottom-gradient" />
         </div>
     );
 }

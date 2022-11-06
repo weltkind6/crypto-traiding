@@ -154,6 +154,10 @@
     left: -30%;
 }
 
+.gradientRight {
+    display: none;
+}
+
 @media (min-width: 1440px) {
     .wrapper {
         margin-top: 0;
@@ -180,6 +184,19 @@
 
     .gradient {
         display: none;
+    }
+
+    .gradientRight {
+        position: absolute;
+        display: block;
+        left: 207%;
+        top: -220%;
+        width: 1186px;
+        height: 703px;
+        background: linear-gradient(180deg, rgba(0, 65, 218, 0.115) 0%, rgba(40, 0, 153, 0.115) 91.72%);
+        filter: blur(100px);
+        border-radius: 30%;
+        transform: rotate(131.65deg);
     }
 
     .lines {

@@ -240,4 +240,8 @@
         top: 125%;
         left: 58%;
     }
+
+    .unionShadow {
+        display: none;
+    }
 }

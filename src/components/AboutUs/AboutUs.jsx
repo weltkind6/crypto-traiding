@@ -38,6 +38,7 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className={styles.gradient} />
+            <div className={styles.gradientRight} />
         </div>
     );
 };

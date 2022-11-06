@@ -2,11 +2,11 @@ import React from 'react';
 import styles from './SpotMargin.module.css'
 import Subtitle from "../shared/Subtitle/Subtitle";
 import LearnMore from "../shared/LearnMore/LearnMore";
-import Container from "../shared/Container/Container";
 
 const SpotMargin = () => {
     return (
-        <Container>
+        <div className={styles.container}>
+            <div className={styles.backing}/>
             <div className={styles.wrapper}>
                 <Subtitle>Spot & Margin</Subtitle>
                 <div className={styles.title}>
@@ -16,8 +16,9 @@ const SpotMargin = () => {
                     to 10x leverage
                 </div>
                 <LearnMore/>
+                <div className={styles.roundGradient} />
             </div>
-        </Container>
+        </div>
     );
 };
 
